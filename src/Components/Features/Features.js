@@ -12,7 +12,7 @@ function Features() {
                     <div class="p-lg-5 ps-lg-0">
                         <h6 class="text-warning">Por que escogernos?</h6>
                         <h1 class="mb-4"> Nos preocupamos por tu bolsillo  </h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <p class="mb-4 pb-2">Ademas de brindar asistencia para que nuestros clientes puedan hacer sus pagos correctamente, nos encargamos de generar un ahorro o encontrar soluciones economicas para que tengas un servicio optimo al precio ideal.</p>
                         <div class="row g-4">
                             <div class="col-6">
                                 <div class="d-flex align-items-center">

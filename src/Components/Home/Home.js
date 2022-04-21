@@ -16,7 +16,7 @@ function Home() {
                             <div class="col-10 col-lg-8">
                                 <h1 class="Titulo display-2 text-white animated slideInDown">¡Te ayudamos a pagar tu Bill!</h1>
                                 <p class="Subtitulo fs-5 fw-medium text-white mb-4 pb-3">Brindamos la mejor asistencia para los pagos de tu Bill de electricidad y que puedas ahorrar hasta un 75% en tu factura mensual.</p>
-                                <a href="#Home" class="botonleer btn rounded-pill py-3 px-5 animated slideInLeft">Leer más</a>
+                                <a href="#Home" class="botonleer btn rounded-pill py-3 px-5 animated slideInLeft">Llamar Ahora</a>
                             </div>
                         </div>
                     </div>
