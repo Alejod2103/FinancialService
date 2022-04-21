@@ -1,4 +1,6 @@
 import React from 'react'
+import './Features.css'
+import photo from '../../img/bill.jpg'
 
 function Features() {
   return (
@@ -9,7 +11,7 @@ function Features() {
                 <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
                     <div class="p-lg-5 ps-lg-0">
                         <h6 class="text-warning">Por que escogernos?</h6>
-                        <h1 class="mb-4"></h1>
+                        <h1 class="mb-4"> Nos preocupamos por tu bolsillo  </h1>
                         <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
                         <div class="row g-4">
                             <div class="col-6">
@@ -29,7 +31,7 @@ function Features() {
                                         <i class="fa fa-user-check text-white"></i>
                                     </div>
                                     <div class="ms-4">
-                                        <p class="mb-0">Trabajdores</p>
+                                        <p class="mb-0">Agentes</p>
                                         <h5 class="mb-0">Expertos</h5>
                                     </div>
                                 </div>
@@ -61,7 +63,7 @@ function Features() {
                 </div>
                 <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style={{minHeight: '400px' }}>
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style={{objectFit: 'cover'}} alt="" />
+                        <img class="photoahorro position-absolute rounded-10 img-fluid w-100 h-100" src={photo} style={{objectFit: 'cover'}} alt="" />
                     </div>
                 </div>
             </div>
