@@ -1,0 +1,13 @@
+.tituloNav{
+    color: #0275d8;
+    letter-spacing: 4px;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+};
+
+.arrowicon{
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+};

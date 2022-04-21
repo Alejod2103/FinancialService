@@ -1,0 +1,12 @@
+.Subtitulo{
+    text-shadow: 1px 1.5px 2px #000;
+}
+
+.Titulo{
+    text-shadow: 1px 4px #000;
+}
+
+.botonleer{
+    background-color: #0275d8;
+    color: #fff;
+}
