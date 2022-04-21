@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import ahorro from '../../img/ahorroEnergia.jpg'
 import emailjs from '@emailjs/browser';
-import { StyledDiv, StyledImage } from './CotizacionStyles'
+import { ButtonStyled, StyledDiv, StyledImage, TextButton } from './CotizacionStyles'
+import InputField from './components/InputField';
 
 function Cotizacion() {
 
@@ -14,6 +15,7 @@ function Cotizacion() {
 
     const [status, setStatus] = useState('');
 
+    
     const handleChange = (e) => {
       setValues(values => ({
         ...values,
@@ -23,7 +25,7 @@ function Cotizacion() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.send('service_xd9mtfr', 'pruebaAlejo', values, 'nPCuWIe53tZRvDWo5')
+        emailjs.send('service_e0dt0ok', 'pruebaAlejo', values, 'nPCuWIe53tZRvDWo5')
           .then(response => {
             console.log('SUCCESS!', response);
             setValues({
@@ -67,22 +69,13 @@ function Cotizacion() {
                         <p class="mb-4 pb-2">Te ayudamos de forma personal con el pago y ahorro de tu servicio de energia electrica. Contactanos Hoy!</p>
                         <form onSubmit={handleSubmit}>
                             <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <input name="fullName" value={values.fullName} type="text" class="form-control border-0" handleChange={handleChange} placeholder="Nombre" style={{height: "55px"}} />
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input value={values.email} type="email" class="form-control border-0" handleChange={handleChange} placeholder="Email" name='email' style={{height: "55px"}} />
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input value={values.telf} type="text" class="form-control border-0" handleChange={handleChange} placeholder="Numero Telefonico" style={{height: "55px"}} />
-                                </div>
-                                <div class="col-12">
-                                    <textarea value={values.message} class="form-control border-0" placeholder="Comentarios"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button onclick={handleSubmit} class="btn btn-warning rounded-pill py-3 px-5" type="submit">Solicitar</button>
-                                </div>
+
+                              <InputField class="form-control border-0" value={values.fullName} handleChange={handleChange} label="Nombre" name="fullName" type="text" placeholder="John Doe" />
+                              <InputField value={values.email} handleChange={handleChange} label="E-Mail" name="email" type="email" placeholder="jphn@example.com" />
+                              <InputField value={values.telf} handleChange={handleChange} label="Telefono" name="telf" type="text" placeholder="jphn@example.com" />
+
                             </div>
+                            <ButtonStyled onclick={handleSubmit}><TextButton >Enviar</TextButton></ButtonStyled>
                         </form>
                     </div>
                 </div>
