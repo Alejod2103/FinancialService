@@ -2,7 +2,6 @@ import React from 'react'
 import "./css/bootstrap.min.css"
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from "./Components/Navbar/Navbar.js"
-import Home from './Components/Home/Home.js';
 import Counter from './Components/Counter/Counter';
 import About from './Components/About/About';
 import Service from './Components/Servicios/Service';
