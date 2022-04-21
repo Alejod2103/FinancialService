@@ -9,6 +9,8 @@ import Counter from './Components/Counter/Counter';
 import About from './Components/About/About';
 import Service from './Components/Servicios/Service';
 import Features from './Components/Features/Features';
+import Cotizacion from './Components/Cotizacion/Cotizacion';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       <Counter />
       <About />
       <Service />
-      <Features />      
+      <Features />
+      <Cotizacion /> 
+      <Footer />  
 
     </Router>
     </>
