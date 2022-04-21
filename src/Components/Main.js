@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 (function ($) {
 
-    // Spinner
+    // Spinner2
     var spinner = function () {
         setTimeout(function () {
             if ($('#spinner').length > 0) {
