@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import ahorro from '../../img/ahorroEnergia.jpg'
+import ahorro from '../../img/img2.jpg'
 import emailjs from '@emailjs/browser';
+import './Cotizacion.css'
 import { ButtonStyled, StyledDiv, StyledImage, TextButton } from './CotizacionStyles'
 import InputField from './components/InputField';
 
@@ -54,7 +55,7 @@ function Cotizacion() {
 
   return (
     <>
-     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+     <div class="container-fluid overflow-hidden my-5 px-lg-0">
         <div class="container quote px-lg-0">
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style={{minHeight: "400px"}}>
@@ -65,8 +66,8 @@ function Cotizacion() {
                 <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <h6 class="text-warning">Ofrecemos: </h6>
-                        <h1 class="mb-4"> Asistencia personalizada </h1>
-                        <p class="mb-4 pb-2">Te ayudamos de forma personal con el pago y ahorro de tu servicio de energia electrica. Contactanos Hoy!</p>
+                        <h1 class="TituloSuperior mb-4"> Asistencia personalizada </h1>
+                        <p class="mb-4 pb-2">Contamos con una amplia trayectoria en el mundo contable, lo que nos permite brindarle un servicio oportuno y de excelencia para su completa satisfacción. Contactanos Hoy!</p>
                         <form onSubmit={handleSubmit}>
                             <div class="row g-3">
 

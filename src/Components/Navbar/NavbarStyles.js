@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const NavObj = styled.a`
-    background-color: #0275d8;
-    color: #fff;
+    background-color: #000;
+    color: #000;
     border-radius: 24px;
     cursor: pointer;
     height: 50px;
@@ -25,7 +25,7 @@ export const QuoteText = styled.h3`
     position: relative;
     margin-top: 15px;
     cursor: pointer;
-    color: #fff;
+    color: #000;
 `;
 
 export const IconBtn = styled.i`

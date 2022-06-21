@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer.css'
 
 function Footer() {
   return (
@@ -10,7 +11,7 @@ function Footer() {
                     <h5 class="text-white mb-4">Contactanos:</h5>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+00000000</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>helpElectricBill@email.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>helpServicestest@email.com</p>
                 </div>
             </div>
         </div>
@@ -18,7 +19,7 @@ function Footer() {
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#Home">Help Electric Bill</a>, Todos los derechos reservados.
+                        &copy; <a href="#Home">Aldana Y Asociados</a>, Todos los derechos reservados 2022.
                     </div>
                 </div>
             </div>

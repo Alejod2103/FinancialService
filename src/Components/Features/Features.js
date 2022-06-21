@@ -1,6 +1,6 @@
 import React from 'react'
 import './Features.css'
-import photo from '../../img/bill.jpg'
+import photo from '../../img/img4.jpg'
 
 function Features() {
   return (
@@ -11,8 +11,8 @@ function Features() {
                 <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
                     <div class="p-lg-5 ps-lg-0">
                         <h6 class="text-warning">Por que escogernos?</h6>
-                        <h1 class="mb-4"> Nos preocupamos por tu bolsillo  </h1>
-                        <p class="mb-4 pb-2">Ademas de brindar asistencia para que nuestros clientes puedan hacer sus pagos correctamente, nos encargamos de generar un ahorro o encontrar soluciones economicas para que tengas un servicio optimo al precio ideal.</p>
+                        <h1 class="Subtitulo mb-4">Sea Parte de nuestra familia de Clientes</h1>
+                        <p class="mb-4 pb-2">Contamos con un personal altamente calificado y de gran calidad humana que trabaja de la mano de nuestros clientes, en el desarrollo de procesos contables que les permita, a las personas y las empresas, contar con una respuesta sencilla y oportuna, tanto en las distintas etapas de la preparación de impuestos, como en la toma de decisiones orientadas a mejorar sus proyectos empresariales.</p>
                         <div class="row g-4">
                             <div class="col-6">
                                 <div class="d-flex align-items-center">
@@ -63,7 +63,7 @@ function Features() {
                 </div>
                 <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style={{minHeight: '400px' }}>
                     <div class="position-relative h-100">
-                        <img class="photoahorro position-absolute rounded-10 img-fluid w-100 h-100" src={photo} style={{objectFit: 'cover'}} alt="" />
+                        <img class="photoahorro position-absolute rounded-10 img-fluid w-100 h-100" src={photo} style={{objectFit: 'cover'}} alt="none" />
                     </div>
                 </div>
             </div>

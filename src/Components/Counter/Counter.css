@@ -1,5 +1,12 @@
 .containerFeature{
     margin-left: 160px;
+    color: #fff;
+}
+
+.container-xxl{
+    background-color: #000;
+    color: #ffc107;
+    margin-top: -50px;
 }
 
 .textoFeature{
@@ -16,6 +23,11 @@
 .subtitle{
     font-size: 12px;
     width: 300px;
+    color: #ffc107;
+}
+
+.TituloFeat{
+    color: #fff;
 }
 
 @media (min-width: 300px) and (max-width: 700px) {
@@ -28,4 +40,8 @@
     .containerFeature{
         margin-left: 3%;
     }    
+}
+
+.numeroCont{
+    color: #fff;
 }

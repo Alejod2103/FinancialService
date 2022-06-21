@@ -1,8 +1,10 @@
 import React from 'react'
-import img1 from '../../img/img-600x400-1.jpg'
-import img2 from '../../img/img-600x400-4.jpg'
-import img3 from '../../img/img-600x400-6.jpg'
+import img2 from '../../img/img14.jpg'
+import img3 from '../../img/img12.jpg'
+import img4 from '../../img/img13.jpg';
 import './Service.css';
+import { BiBriefcase } from "react-icons/bi";
+import { AiOutlineDollar, AiFillBank } from 'react-icons/ai';
 import { LlamaBoton } from './ServiceStyles.js'
 
 function Service() {
@@ -12,18 +14,18 @@ function Service() {
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: "600px"}}>
                 <h6 class="text-warning">Nuestros Servicios</h6>
-                <h1 class="mb-4">Soluciones en energia renovable</h1>
+                <h1 class="SubTextoTitulo mb-4">Así te ayudamos a potenciar tu negocio</h1>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src={img1} alt="" />
+                        <img class="img-fluid" src={img4} alt="" />
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon bg-warning">
-                                <i class="fa fa-solar-panel fa-3x"></i>
+                                <AiFillBank className='Banco' />
                             </div>
-                            <h4 class="mb-3">Servicio solar residencial</h4>
-                            <p>Ahorra hasta un 65% mensual en energia para el hogar con nuestro servicio de energia solar.</p>
+                            <h4 class="Feattittle mb-3">Registro e Incorporacion de negocios</h4>
+                            <p>nos ocupamos de la inscripción de negocios y realizamos los trámite con nosotros y nuestra amplia trayectoria, como carta de presentación que demuestra la efectividad de nuestros servicios profesionales.</p>
                             <LlamaBoton>LLama ahora <i class="bi bi-telephone-forward ms-2"></i></LlamaBoton>
                         </div>
                     </div>
@@ -33,10 +35,10 @@ function Service() {
                         <img class="img-fluid" src={img2} alt="" />
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon bg-warning">
-                                <i class="fa fa-solar-panel fa-3x"></i>
+                                <BiBriefcase className='Trabajo' />
                             </div>
-                            <h4 class="mb-3">Tecnicos profesionales</h4>
-                            <p>Nuestros técnicos estan comprometidos a brindar un servicio excelente con la mejor atencion y experiencia.</p>
+                            <h4 class="Feattittle mb-3">Servicios Contables</h4>
+                            <p>somos profesionales con amplia experiencia, en los campos de la contabilidad y la declaración de impuestos. Contamos con el Número de Identificación del Preparador Tributario (PTIN), renovado y actualizado conforme lo manda la ley.</p>
                             <LlamaBoton>LLama ahora <i class="bi bi-telephone-forward ms-2"></i></LlamaBoton>
                         </div>
                     </div>
@@ -46,10 +48,10 @@ function Service() {
                         <img class="img-fluid" src={img3} alt="" />
                         <div class="position-relative p-4 pt-0">
                             <div class="service-icon bg-warning">
-                                <i class="fa fa-lightbulb fa-3x"></i>
+                                 <AiOutlineDollar className='LogoDinero' />
                             </div>
-                            <h4 class="mb-3">Servicio solar empresarial</h4>
-                            <p>Ofrecemos soluciones en energia solar para empresas con el personal mejor capacitado.</p>
+                            <h4 class="Feattittle mb-3">Contabilidad para personas físicas</h4>
+                            <p className='TextoLargo'>Si usted necesita realizar un trabajo de contabilidad para personas físicas, le tenemos la solución. Contamos con la autorización PTIN al día, somos profesionales como preparadores de impuestos y nos mantenemos en un constante proceso de actualización en los campos de la contabilidad y las leyes tributarias.  Trabajamos sobre la base de archivos y recibos. Los mas confiables en el rubro.</p>
                             <LlamaBoton>LLama ahora <i class="bi bi-telephone-forward ms-2"></i></LlamaBoton>
                         </div>
                     </div>

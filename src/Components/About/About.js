@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import img1 from '../../img/about.jpg';
+import img1 from '../../img/img9.jpg';
 
 function About() {
   return (
@@ -16,11 +16,11 @@ function About() {
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
                         <h6 class="text-warning">Sobre Nosotros</h6>
-                        <h1 class="mb-4">Contamos con más de 25+ años brindando el mejor servicio y ahorro que solamente nos permite la energia solar</h1>
+                        <h1 class="mb-4">Contamos con más de 8+ años brindando el mejor servicio y ahorro que solamente nos permite nuestra firma de profesionales y capacitados en el rubro </h1>
                         <p></p>
-                        <p><i class="fa fa-check-circle text-warning me-3"></i>La mejor asistencia para el ahorro de energia</p>
-                        <p><i class="fa fa-check-circle text-warning me-3"></i>Tecnicos e ingenieros expertos a tu servicio</p>
-                        <p><i class="fa fa-check-circle text-warning me-3"></i>+25 años de experiencia</p>
+                        <p><i class="fa fa-check-circle text-warning me-3"></i>La mejor asistencia para el ahorro de tu dinero</p>
+                        <p><i class="fa fa-check-circle text-warning me-3"></i>Preparador de Impuestos</p>
+                        <p><i class="fa fa-check-circle text-warning me-3"></i>Contabilidad para negocios</p>
                         <a href="#home" class="btn btn-warning rounded-pill py-3 px-5 mt-3">Ver más</a>
                     </div>
                 </div>

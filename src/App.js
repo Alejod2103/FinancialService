@@ -13,7 +13,6 @@ import BannerHomePage from './Pages/BannerHomePage';
 function App() {
   return (
     <>
-      
       <Router>
         <Navbar />
           <Switch>
@@ -26,7 +25,6 @@ function App() {
           </Switch>
        < Footer />
       </Router>
-
     </>
   )
 }
