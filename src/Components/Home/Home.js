@@ -14,9 +14,10 @@ function Home() {
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
+                               <h1 className='telefono'>+1(813)278-6391</h1>
                                 <h1 class="Titulo display-2 text-white animated slideInDown">Grandes ideas para pequeños negocios.</h1>
                                 <p class="Subtitulo fs-5 fw-medium text-white mb-4 pb-3">Estrategias para lograr el éxito empresarial.</p>
-                                <a href="#Home" class="botonleer btn rounded-pill py-3 px-5 animated slideInLeft">Contactenos</a>
+                                <a href='tel:+1(813)278-6391' class="botonleer btn rounded-pill py-3 px-5 animated slideInLeft">Contactenos</a>
                             </div>
                         </div>
                     </div>

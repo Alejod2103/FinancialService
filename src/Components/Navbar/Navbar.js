@@ -28,9 +28,9 @@ function Navbar() {
             <Link to={"/service" } class="navObj nav-item nav-link">Servicios</Link>
             <Link to={"/asistencia"} class="nav-item nav-link">Contacto</Link>
         </div>
-        <Link to='/asistencia' >
-        <NavObj class="btn m-50 b rounded-2 p-2 py-4 px-lg-3 d-none mt-10 d-lg-block" ><QuoteText>Obten asesoria hoy mismo<IconBtn class="fa fa-arrow-right ms-3"></IconBtn></QuoteText></NavObj>
-        </Link>
+        <a href='tel:+1(813)278-6391' >
+        <NavObj class="btn m-50 b rounded-2 p-2 py-4 px-lg-3 d-none mt-10 d-lg-block" ><QuoteText>+1(813)278-6391<IconBtn class="fa fa-arrow-right ms-3"></IconBtn></QuoteText></NavObj>
+        </a>
     </div>
     <script src="../main.js"></script>
 </nav>

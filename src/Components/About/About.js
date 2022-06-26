@@ -21,7 +21,7 @@ function About() {
                         <p><i class="fa fa-check-circle text-warning me-3"></i>La mejor asistencia para el ahorro de tu dinero</p>
                         <p><i class="fa fa-check-circle text-warning me-3"></i>Preparador de Impuestos</p>
                         <p><i class="fa fa-check-circle text-warning me-3"></i>Contabilidad para negocios</p>
-                        <a href="#home" class="btn btn-warning rounded-pill py-3 px-5 mt-3">Ver más</a>
+                        <a href='tel:+1(813)278-6391' class="btn btn-warning rounded-pill py-3 px-5 mt-3">Contactenos</a>
                     </div>
                 </div>
             </div>
